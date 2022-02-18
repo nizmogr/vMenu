@@ -28,7 +28,7 @@ namespace vMenuClient
             {
                 Label = $"~h~{MainMenu.Version}~h~"
             };
-            MenuItem credits = new MenuItem("About vMenu / Credits", "vMenu is customised by ~b~nizmogr~s~. For more info, checkout ~b~https://discord.gg/zenHA73rFN~s~.");
+            MenuItem credits = new MenuItem("About vMenu / Credits", "vMenu is customized by ~b~nizmogr~s~. For more info, checkout ~b~https://discord.gg/zenHA73rFN~s~.");
             
             string serverInfoMessage = vMenuShared.ConfigManager.GetSettingsString(vMenuShared.ConfigManager.Setting.vmenu_server_info_message);
             if (!string.IsNullOrEmpty(serverInfoMessage))
